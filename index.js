@@ -22,12 +22,12 @@ function FSendMailOTPTimviec365(title,content,receiver){
         let transporter = nodemailer.createTransport({
             service:'gmail',
             auth:{
-            user:'raonhanh365.vn.3@gmail.com',
-            pass:'yohlizaggvvebpyt'
+            user:'hotrochamcongtk3@gmail.com',
+            pass:'fxtjtslvzgkntttg'
             }
         });
         const mail_config = {
-            from:'timviec365.vn.1@gmail.com',
+            from:'hotrochamcongtk3@gmail.com',
             to:receiver,
             subject:title,
             html: `${content}`
